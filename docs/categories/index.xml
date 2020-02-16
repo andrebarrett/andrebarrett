@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Andre Barrett, Entrepreneur, Investor and Business Coach</title>
+    <link>http://www.andrebarrett.com/categories/</link>
+    <description>Recent content in Categories on Andre Barrett, Entrepreneur, Investor and Business Coach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.andrebarrett.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAQ</title>
+      <link>http://www.andrebarrett.com/faq/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.andrebarrett.com/faq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mindset</title>
+      <link>http://www.andrebarrett.com/mindset/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.andrebarrett.com/mindset/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<div class="hero-banner d-flex align-items-center">
+    <div class="container text-center">
+        <h1 class="text-white">{{ .Title }}</h1>
+    </div>
+  </div>
+
+ <!--================Blog Area =================-->
+ <section class="blog_area single-post-area area-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 posts-list">
+                <div class="single-post">
+                    <div class="feature-img">
+                        <img class="img-fluid" src="{{ with .Params.mainImage }}{{ . | relURL }}{{ end }}" alt="{{.Title}} image" />
+                    </div>
+
+                    <div class="blog_details">
+                        <ul class="blog-info-link mt-3 mb-4">
+                            <li><a href="#"><i class="far fa-user"></i> Travel, Lifestyle</a></li>
+                            <li><a href="#"><i class="far fa-comments"></i> 03 Comments</a></li>
+                        </ul>
+                  
+                        {{ .Content }}
+
+                    </div>
+                </div>
+            </div>
+
+            {{- partial "side-widgets.html" . -}}
+
+        </div>
+    </div>
+ </section>
+
+{{ end }}

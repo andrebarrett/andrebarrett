@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    {{- partial "head.html" . -}}
+    <body id="page-top">
+        {{- partial "landing-header.html" . -}}
+        <div id="content">
+        {{ .Content }}
+        </div>
+    </body>
+    {{- partial "footerscripts.html" . -}}
+</html>
