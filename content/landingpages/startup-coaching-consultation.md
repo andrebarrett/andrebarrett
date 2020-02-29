@@ -5,15 +5,15 @@ contributors: ["Andre Barrett"]
 images: ["img/articles/beginners/forex-currency-carry-trade.jpg"]
 draft: false
 ---
-<section class="hero-area">
+<section class="hero-area hero-area-startup-consultation">
 <div class="container">
 <div class="row">
 
 <div class="col-lg-7">
-    <div class="hero-area-content">
+    <div class="hero-area-content padded">
         <h1>I'll share with you my 5 step blueprint for creating a software startup</h1>
         <p>How to create a profitable business that gives you independence and freedom starting from scratch.</p>
-            <p><a href="#" class="btn btn-xl btn-primary">Sign Up</a></p>
+            <p><a href="#free-consultation-signup" class="btn btn-xl btn-primary">Sign Up</a></p>
     </div>
 </div>
 <div class="col-lg-5">
@@ -36,7 +36,7 @@ draft: false
         <div class="row mb-5">
           <div class="col-md-6 aos-init aos-animate mb-5" data-aos="fade-right">
             <h5>Your host: Andre Barrett</h5>
-            <img src="/img/person_2.jpg" alt="Image" class="img-fluid">
+            <img src="/img/about/andre-barrett-founder.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-md-6 ml-auto pl-lg-5">
             <h5 class="text-black mb-4 font-weight-bold">In this 60 min video presentation I'll be sharing ...</h5>
@@ -46,8 +46,12 @@ draft: false
                <p class="mb-4">My 5 step blueprint for creating and growing a successful software business.</p>
             <h6>Training Point 3</h6>
             <p class="mb-4">Some actions on how to get started.</p>
-            <p><a href="#" class="btn btn-xl btn-primary">Sign Up</a></p>
           </div>
+        </div>
+        <div id="free-consultation-signup" class="row">
+        <iframe class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/51T0/la8" width="100%"></iframe>
+
+<script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
         </div>
     </div>
 </section>
