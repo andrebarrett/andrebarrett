@@ -33,6 +33,10 @@ h6 {
 		sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+h4,h2 > a {
+	color: #212529;
+}
+
 .page-section {
 	padding: 100px 0;
 }
@@ -265,6 +269,15 @@ div .overlay {
 	align-items: stretch;
 }
 
+div .overlay-purple {
+	background: linear-gradient(rgba(68, 108, 179, 0.8), rgba(68, 108, 179, 0.92));
+	height: 100%;
+    width: 100%;
+    top: 0;
+	left: 0;
+	align-items: stretch;
+}
+
 div.masthead .intro-text {
 	padding-top: 150px;
 	padding-bottom: 100px;
@@ -480,8 +493,7 @@ section.cta .overlay {
 	background-image: url("/img/about/evolution-of-man.jpg");
 	width: 100%;
 	/* Set a specific height */
-	height: 500px;
-	padding-top: 150px;
+	height: 300px;
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
@@ -1251,7 +1263,7 @@ ul.social-buttons li a:hover {
 
 /*============== footer-area css ===============*/
 .footer-area {
-	padding-top: 115px;
+	padding-top: 40px;
 	background: #212529;
 }
 @media (max-width: 991px) {
@@ -1293,13 +1305,13 @@ ul.social-buttons li a:hover {
 .footer-area .single-footer-widget ul li a:hover {
 	color: #fec503;
 }
-.footer-area .single-footer-widget .form-wrap {
+.side-widget .form-wrap {
 	margin-top: 25px;
 }
-.footer-area .single-footer-widget .form-wrap .info {
+.side-widget .form-wrap .info {
 	color: #fec503;
 }
-.footer-area .single-footer-widget input {
+.side-widget input {
 	height: 40px;
 	border: 1px solid #eeeeee;
 	width: 67% !important;
@@ -1313,31 +1325,31 @@ ul.social-buttons li a:hover {
 	color: #888888;
 	margin-right: -25px;
 }
-.footer-area .single-footer-widget input:focus {
+.side-widget input:focus {
 	outline: none;
 	box-shadow: none;
 }
-.footer-area .single-footer-widget input.placeholder {
+.side-widget input.placeholder {
 	font-size: 14px;
 	padding-left: 10px;
 	color: #888888;
 }
-.footer-area .single-footer-widget input:-moz-placeholder {
+.side-widget input:-moz-placeholder {
 	font-size: 14px;
 	padding-left: 10px;
 	color: #888888;
 }
-.footer-area .single-footer-widget input::-moz-placeholder {
+.side-widget input::-moz-placeholder {
 	font-size: 14px;
 	padding-left: 10px;
 	color: #888888;
 }
-.footer-area .single-footer-widget input::-webkit-input-placeholder {
+.side-widget input::-webkit-input-placeholder {
 	font-size: 14px;
 	padding-left: 10px;
 	color: #888888;
 }
-.footer-area .single-footer-widget .click-btn {
+.side-widget .click-btn {
 	border-radius: 24px;
 	padding: 6px 21px 4px 14px;
 	border: 0;
@@ -1348,11 +1360,11 @@ ul.social-buttons li a:hover {
 	text-transform: capitalize;
 	z-index: 999;
 }
-.footer-area .single-footer-widget .click-btn i,
-.footer-area .single-footer-widget .click-btn span {
+.side-widget .click-btn i,
+.side-widget .click-btn span {
 	font-size: 18px;
 }
-.footer-area .single-footer-widget .click-btn:focus {
+.side-widget .click-btn:focus {
 	outline: none;
 	box-shadow: none;
 }
@@ -1378,7 +1390,15 @@ ul.social-buttons li a:hover {
 .footer-area .footer-bottom p {
 	color: #777777;
 }
-.footer-area .fab {
+
+.footer-area .footer-bottom a {
+	color: #777777;
+}
+.footer-area .footer-bottom a:hover {
+	color: #fec503;
+}
+
+.footer-social .fab {
 	color: #fec503;
 }
 .footer-area .footer-bottom p a {

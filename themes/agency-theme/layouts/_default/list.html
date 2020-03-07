@@ -20,7 +20,7 @@
               <div class="card mb-4 post">
                 <img class="card-img-top" src="{{ with .Params.mainImage }}{{ . | relURL }}{{ end }}" alt="{{.Title}} image" />
                 <div class="card-body">
-                    <a href="{{ .RelPermalink }}"><h2 class="card-title">{{ .Title }}</h2></a>
+                  <h2 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                   <p class="card-text">  {{ .Summary }} </p>
                   <a href="{{ .RelPermalink }}" class="btn btn-primary">Read More &rarr;</a>
                 </div>
