@@ -6,10 +6,20 @@
     <description>Recent content in Landingpages on Andre Barrett, Entrepreneur, Investor and Business Coach</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Apr 2012 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.andrebarrett.com/landingpages/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Startup Bootcamp</title>
+      <link>http://www.andrebarrett.com/startup-bootcamp/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.andrebarrett.com/startup-bootcamp/</guid>
+      <description>Get instant access to my
+Startup Bootcamp Where I show you how you can create a profitable startup business using your software development skills even as a side hustle.</description>
+    </item>
     
     <item>
       <title>Startup coaching consultation</title>
