@@ -9,7 +9,7 @@
       <h6>The Mobile App Development Guide</h6>
       <p>Learn what it takes to build and launch a mobile app. Enter your email address to get the free guide.</p>
       <div>
-        <img class="img-fluid" src="https://cdn-backlinko.pressidium.com/wp-content/uploads/2019/11/seo-this-year-social-640x335.png" sizes="(max-width: 640px) 100vw, 640px" srcset="https://cdn-backlinko.pressidium.com/wp-content/uploads/2019/11/seo-this-year-social-640x335.png 640w, https://cdn-backlinko.pressidium.com/wp-content/uploads/2019/11/seo-this-year-social-300x157.png 300w, https://cdn-backlinko.pressidium.com/wp-content/uploads/2019/11/seo-this-year-social-1280x670.png 1280w, https://cdn-backlinko.pressidium.com/wp-content/uploads/2019/11/seo-this-year-social-768x402.png 768w, https://cdn-backlinko.pressidium.com/wp-content/uploads/2019/11/seo-this-year-social-1536x804.png 1536w, https://cdn-backlinko.pressidium.com/wp-content/uploads/2019/11/seo-this-year-social-480x251.png 480w, https://cdn-backlinko.pressidium.com/wp-content/uploads/2019/11/seo-this-year-social-960x502.png 960w, https://cdn-backlinko.pressidium.com/wp-content/uploads/2019/11/seo-this-year-social-1440x753.png 1440w, https://cdn-backlinko.pressidium.com/wp-content/uploads/2019/11/seo-this-year-social.png 1600w" alt="Seo in 2020">
+        <img class="img-fluid" src="/img/blog/mobile-app-development-guide.jpg" alt="Mobile app development guide">
       </div>
       <div class="form-wrap" id="mc_embed_signup">
         <form target="_blank"
@@ -43,7 +43,7 @@
           <ul class="list-unstyled mb-0">
             {{ range $taxonomyname, $taxonomy := .Site.Taxonomies.categories }}
             <li>
-              <a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
+              <a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">#{{ $taxonomyname }}</a>
             </li>
             {{ end }}
           </ul>
