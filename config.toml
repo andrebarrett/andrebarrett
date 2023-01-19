@@ -1,10 +1,11 @@
-baseURL = "http://www.andrebarrett.com"
+baseURL = "https://www.andrebarrett.com"
 relativeURLs = true
 languageCode = "en-us"
-title = "Andre Barrett, Entrepreneur, Investor and Business Coach"
+title = "Andre Barrett, Entrepreneur, Investor and Software Engineer"
 
+metaDataFormat = "yaml"
+theme = "blist"
 
-theme = "agency-theme"
 summaryLength = 10
 
 # Build robots.txt file
@@ -15,33 +16,169 @@ googleAnalytics = ""
 enableGitInfo = false
 pygmentsCodeFences = true
 
-# Multilangues setup
-# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
-defaultContentLanguageInSubdir = false
-defaultContentLanguage = "en"
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = false
 
-[taxonomies]
-  category = "categories"
-  contributor = "contributors"
-  tag = "tags"
+[languages]
+[languages.en]
+contentDir = "content" #English
+weight = 1
+languageName = "English"
+[languages.en.params]
+introTitle = "Hey! I'm Andre Barrett"
+introSubtitle = "I’m an investor, entrepreneur and software engineer based in London, England. I’m the founder and Director of Barrett Ventures where we start or buy companies. We then incubate these businesses in order to substantially grow them."
+introPhoto = "/img/andre-barrett.jpeg"
+logo = "/andre-barrett-logo.png"
 
-[permalinks]
-    blog = "/:title"
-    categories = "/:title"
-    landingpages = "/:title"
+[[languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "About"
+url = "about"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "Trader"
+url = "trader"
+weight = 3
+
+
+[[languages.en.menu.main]]
+name = "Investor"
+url = "investor"
+weight = 4
+
+[[languages.en.menu.main]]
+name = "Blog"
+url = "blog"
+weight = 5
 
 [params]
-    contentDir = "content"
-    weight = 10
-    languageCode = "en-us"
-    title = "Software startup coaching for tech entrepreneurs - Andre Barrett"
-    dateFormat = "January 2, 2006"
+# Enable the darkmode toggle in header
+darkModeToggle = true
 
-    logo = "images/logo.png"
-    menufixed = false
+# Enable search in header
+enableSearch = true
 
-    footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
-    footerServiceTitle = "Service"
-    footerQuicklinkTitle = "Quicklinks"
-    footerAboutTitle = "About"
-    footerSubscribeTitle = "Subscribe"
+# Option to customize the search parameters of a page
+# Below are the supported options; Note that including entire content
+# may slowdown the loading of search results
+# Title of page is included by default
+searchKeys = [
+    "tags",
+    "date",
+    "categories",
+    "summary",
+    "content",
+    "link",
+    "author"
+]
+
+# Custom copyright - optional
+copyright = "Copyright © 2023 - Andre Barrett · All rights reserved"
+favicon = "/apple-icon.png"
+
+# Color for the intro details and social links block, not applicable for dark mode
+# Supported values: Any color from TailwindCSS default colors
+# Reference: https://tailwindcss.com/docs/customizing-colors
+ascentColor = "bg-blue-50"
+
+# The page bundle that is shown on the front page
+frontBundle = "blog"
+
+# Used to hide the post metadata such as posted date, reading time and word count
+# Can be used at site level or page level
+hideMeta = false
+
+# To hide "Other languages" option if the post is available in multiple languages
+# Can be used at site level or page level
+hideOtherLanguages = true
+
+# Add support for Table of contents
+# Can be added to a page level also in markdown frontmatter
+toc = true
+
+# Hides the thumbnail in post view
+# Thumbnails in home and blog pages will still be shown
+# This setting can also be in page's markdown file
+hidePageThumbnail = false
+
+# Comments system
+[params.comments]
+# Supports disqus, giscus and utterances
+# Check hugo docs for setting up disqus
+system = "giscus"
+
+# Options for giscus, exclude hyphens
+repo = ""
+repoid = ""
+category = ""
+categoryid = ""
+mapping = ""
+strict = ""
+reactionsenabled = ""
+emitmetadata = ""
+inputposition = ""
+theme = ""
+
+# Options for utterances, exclude hyphens
+# repo = ""
+# issueterm = ""
+# theme = ""
+
+[params.homepage.social]
+# Global params common for both languages
+title = "Follow me"
+description = "I work on business, investing and coding"
+
+[[params.homepage.social.icons]]
+website = "twitter"
+url = "https://twitter.com/andrebarretttv"
+[[params.homepage.social.icons]]
+website = "linkedin"
+url = "https://www.linkedin.com/in/andrebarretttv"
+[[params.homepage.social.icons]]
+website = "github"
+url = "https://github.com/andrebarrett"
+[[params.homepage.social.icons]]
+website = "medium"
+url = "https://medium.com/"
+[[params.homepage.social.icons]]
+website = "reddit"
+url = "https://reddit.com/"
+[[params.homepage.social.icons]]
+website = "stackoverflow"
+url = "https://stackoverflow.com/"
+[[params.homepage.social.icons]]
+website = "tiktok"
+url = "https://tiktok.com"
+[[params.homepage.social.icons]]
+website = "youtube"
+url = "https://www.youtube.com/andrebarretttv"
+[[params.homepage.social.icons]]
+website = "instagram"
+url = "https://www.instagram.com/andrebarretttv"
+[[params.homepage.social.icons]]
+website = "facebook"
+url = "https://www.facebook.com/andrebarrettcoaching"
+
+[[menu.main]]
+name = "About"
+url = "/about"
+
+[build]
+writeStats = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+[markup.highlight]
+style = "dracula"
+[markup.goldmark.renderer]
+# Enable to include inline HTML
+unsafe = true

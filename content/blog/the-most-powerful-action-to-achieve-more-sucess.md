@@ -2,12 +2,13 @@
 title: "The most powerful action to achieve more success - letting go"
 date: "2020-01-30"
 author: "Andre Barrett"
-mainImage: "img/blog/let-go.jpg"
+thumbnail: "/blog/images/let-go.jpg"
 images: ["img/blog/let-go.jpg"]
 categories: ["Mindset", "FAQ"]
 description: "A question that I frequently encounter while coaching is, “How can I be more successful?” The answer to this question is so simple that to most people it will seem absurd."
 draft: false
 ---
+
 
 ## A question that I frequently encounter while coaching is, “How can I be more successful?”
 
