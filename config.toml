@@ -144,17 +144,14 @@ url = "https://www.linkedin.com/in/andrebarretttv"
 website = "github"
 url = "https://github.com/andrebarrett"
 [[params.homepage.social.icons]]
-website = "medium"
-url = "https://medium.com/"
-[[params.homepage.social.icons]]
 website = "reddit"
-url = "https://reddit.com/"
+url = "https://www.reddit.com/user/andrebarrett"
 [[params.homepage.social.icons]]
 website = "stackoverflow"
-url = "https://stackoverflow.com/"
+url = "https://stackoverflow.com/users/12569053/andre-barrett"
 [[params.homepage.social.icons]]
 website = "tiktok"
-url = "https://tiktok.com"
+url = "https://www.tiktok.com/@andrebarretttv"
 [[params.homepage.social.icons]]
 website = "youtube"
 url = "https://www.youtube.com/andrebarretttv"
