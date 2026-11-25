@@ -1,0 +1,25 @@
+# Articles on aisecurityarchitects.com. Shown on the AI Security page
+- title: "AI Governance That Actually Works: If You Can't Enforce It, It Isn't Governance"
+  description: "Mapping NIST AI RMF, ISO 42001 and EU AI Act requirements to enforceable controls and audit evidence."
+  image: /img/ai-security/ai-governance-enforceable-controls.png
+  url: https://aisecurityarchitects.com/blog/ai-governance-enforceable-controls/
+- title: "Agent-to-Agent (A2A) Security: Discovery Is Not Authorization"
+  description: "Agent identity, verified agent cards, discovery controls and authorization for multi-agent systems."
+  image: /img/ai-security/agent-to-agent-security.png
+  url: https://aisecurityarchitects.com/blog/agent-to-agent-security/
+- title: "An Internal AI Marketplace Without the Supply Chain Risk"
+  description: "Admission control, scanning, trust levels, visibility and fast recalls for agents, MCP servers and skills."
+  image: /img/ai-security/ai-marketplace-supply-chain-security.png
+  url: https://aisecurityarchitects.com/blog/ai-marketplace-supply-chain-security/
+- title: "Your MCP Gateway Is a Security Control, Not a Convenience"
+  description: "Identity, per-tool authorization, credential handling and audit for AI agents and MCP servers."
+  image: /img/ai-security/mcp-gateway-security.png
+  url: https://aisecurityarchitects.com/blog/mcp-gateway-security/
+- title: "The MCP Protocol Through a Security Lens: Treat Every Tool Description as Untrusted Input"
+  description: "Tool poisoning, rug pulls, prompt injection and token passthrough, and the controls every MCP rollout needs."
+  image: /img/ai-security/mcp-protocol-security.png
+  url: https://aisecurityarchitects.com/blog/mcp-protocol-security/
+- title: "Zero Trust for AI Agents: Authorize the Human, Not the Agent"
+  description: "Signed provenance, per-node policy and initiator-based authorization to stop confused deputy attacks."
+  image: /img/ai-security/zero-trust-for-ai-agents.png
+  url: https://aisecurityarchitects.com/blog/zero-trust-for-ai-agents/

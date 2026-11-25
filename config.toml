@@ -1,7 +1,7 @@
 baseURL = "https://www.andrebarrett.com"
 relativeURLs = true
 languageCode = "en-us"
-title = "Andre Barrett, Entrepreneur, Investor and Software Engineer"
+title = "Andre Barrett, Software Architect, Entrepreneur and Author"
 
 metaDataFormat = "yaml"
 theme = "blist"
@@ -10,6 +10,9 @@ summaryLength = 10
 
 # Build robots.txt file
 enableRobotsTXT = true
+
+# No blog, so no category or tag pages
+disableKinds = ["taxonomy", "term"]
 # google analytics tracking id
 googleAnalytics = ""
 
@@ -26,7 +29,7 @@ weight = 1
 languageName = "English"
 [languages.en.params]
 introTitle = "Hey! I'm Andre Barrett"
-introSubtitle = "I’m an investor, entrepreneur and software engineer based in London, England. I’m the founder and Director of Barrett Ventures where we start or buy companies. We then incubate these businesses in order to substantially grow them."
+introSubtitle = "I’m a solution architect, software engineer and tech entrepreneur based in London, England. I design and build software, secure AI platforms, and help developers and founders turn technology into profitable businesses."
 introPhoto = "/img/andre-barrett.jpeg"
 logo = "/andre-barrett-logo.png"
 
@@ -41,22 +44,29 @@ url = "about"
 weight = 2
 
 [[languages.en.menu.main]]
-name = "Trader"
-url = "trader"
+name = "Software"
+url = "software"
 weight = 3
 
-
 [[languages.en.menu.main]]
-name = "Investor"
-url = "investor"
+name = "AI Security"
+url = "ai-security"
 weight = 4
 
 [[languages.en.menu.main]]
-name = "Blog"
-url = "blog"
+name = "Marketing"
+url = "marketing"
 weight = 5
 
+[[languages.en.menu.main]]
+name = "Academy"
+url = "academy"
+weight = 6
+
 [params]
+# Default meta description
+description = "Andre Barrett is a London-based solution architect, software engineer, tech entrepreneur and author of Branding For Profit."
+
 # Enable the darkmode toggle in header
 darkModeToggle = true
 
@@ -78,16 +88,13 @@ searchKeys = [
 ]
 
 # Custom copyright - optional
-copyright = "Copyright © 2023 - Andre Barrett · All rights reserved"
+copyright = "Copyright © 2026 - Andre Barrett · All rights reserved"
 favicon = "/apple-icon.png"
 
 # Color for the intro details and social links block, not applicable for dark mode
 # Supported values: Any color from TailwindCSS default colors
 # Reference: https://tailwindcss.com/docs/customizing-colors
 ascentColor = "bg-blue-50"
-
-# The page bundle that is shown on the front page
-frontBundle = "blog"
 
 # Used to hide the post metadata such as posted date, reading time and word count
 # Can be used at site level or page level
@@ -132,14 +139,14 @@ theme = ""
 [params.homepage.social]
 # Global params common for both languages
 title = "Follow me"
-description = "I work on business, investing and coding"
+description = "I share what I learn about software, AI, marketing and building a business"
 
 [[params.homepage.social.icons]]
 website = "twitter"
-url = "https://twitter.com/andrebarretttv"
+url = "https://x.com/andrebarrett_uk"
 [[params.homepage.social.icons]]
 website = "linkedin"
-url = "https://www.linkedin.com/in/andrebarretttv"
+url = "https://www.linkedin.com/in/andre-barrett"
 [[params.homepage.social.icons]]
 website = "github"
 url = "https://github.com/andrebarrett"
@@ -154,13 +161,13 @@ website = "tiktok"
 url = "https://www.tiktok.com/@andrebarretttv"
 [[params.homepage.social.icons]]
 website = "youtube"
-url = "https://www.youtube.com/andrebarretttv"
+url = "https://www.youtube.com/@andre-barrett"
 [[params.homepage.social.icons]]
 website = "instagram"
-url = "https://www.instagram.com/andrebarretttv"
+url = "https://www.instagram.com/andrebarrett_uk"
 [[params.homepage.social.icons]]
 website = "facebook"
-url = "https://www.facebook.com/andrebarrettcoaching"
+url = "https://www.facebook.com/andrebarrettuk"
 
 [[menu.main]]
 name = "About"

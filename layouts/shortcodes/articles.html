@@ -1,0 +1,13 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 my-8">
+{{ range .Site.Data.articles }}
+<div class="rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+<a href="{{ .url }}" target="_blank" rel="noopener" style="text-decoration: none">
+<img src="{{ .image }}" alt="{{ .title }}" loading="lazy" class="w-full" style="margin: 0" />
+<div class="p-4">
+<div class="text-lg font-semibold dark:text-white">{{ .title }}</div>
+<div class="text-base font-light text-gray-500 dark:text-gray-400">{{ .description }}</div>
+</div>
+</a>
+</div>
+{{ end }}
+</div>
